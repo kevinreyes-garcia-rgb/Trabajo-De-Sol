@@ -1,29 +1,26 @@
 const translations = {
     es: {
-        lblCreatedBy: "Tu Nombre",
-        lblRemTheme: "Tema Rem (Azul)",
-        lblRamTheme: "Tema Ram (Rosa)",
-        headerTagline: "Edición Especial",
-        mainTitle: "Cultural Hispanoamérica",
-        mainSubtitle: "Explora la información cultural de la región.",
-        searchPlaceholder: "Buscar país, comida, danza, personaje...",
-        btnToggleTable: "Ver en Tabla",
-        btnToggleCards: "Ver en Tarjetas",
+        headerTagline: "Galería Cultural",
+        mainTitle: "Portal Hispanoamericano",
+        mainSubtitle: "Explora la gastronomía, arte, tradiciones y figuras destacadas de cada país.",
+        searchPlaceholder: "Buscar por país, comida, danza...",
+        btnToggleTable: "Ver Tabla",
+        btnToggleCards: "Ver Tarjetas",
         thCountry: "País",
         thDish: "Platillo Típico",
         thDance: "Danza",
         thMusic: "Música",
         thSport: "Deporte",
-        thPerson: "Personaje Famoso",
-        lblDish: "PLATILLO TÍPICO",
-        lblDance: "DANZA TRADICIONAL",
-        lblMusic: "GÉNERO MUSICAL",
-        lblSport: "DEPORTE POPULAR",
-        lblPerson: "PERSONAJE FAMOSO",
-        noResultsTitle: "No se encontraron resultados",
-        noResultsText: "Intenta con otro término de búsqueda.",
-        lblFooterCreated: "Creado con cariño por",
-        lblFooterHosted: "Proyecto listo para GitHub Pages",
+        thPerson: "Figura Destacada",
+        lblDish: "Gastronomía",
+        lblDance: "Danza Tradicional",
+        lblMusic: "Género Musical",
+        lblSport: "Deporte Popular",
+        lblPerson: "Figura Destacada",
+        noResultsTitle: "Sin coincidencias",
+        noResultsText: "Prueba con otros términos de búsqueda.",
+        lblFooterCreated: "Diseñado y desarrollado por",
+        lblFooterHosted: "Optimizado para GitHub Pages",
         countries: [
             { id: "pais1", country: "", flag: "", dish: "", dishDesc: "", dance: "", music: "", sport: "", person: "", personRole: "" },
             { id: "pais2", country: "", flag: "", dish: "", dishDesc: "", dance: "", music: "", sport: "", person: "", personRole: "" },
@@ -39,29 +36,26 @@ const translations = {
         ]
     },
     en: {
-        lblCreatedBy: "Your Name",
-        lblRemTheme: "Rem Theme (Blue)",
-        lblRamTheme: "Ram Theme (Pink)",
-        headerTagline: "Special Edition",
-        mainTitle: "Hispanic Cultural Page",
-        mainSubtitle: "Explore regional cultural information.",
-        searchPlaceholder: "Search country, food, dance, person...",
-        btnToggleTable: "View as Table",
-        btnToggleCards: "View as Cards",
+        headerTagline: "Cultural Gallery",
+        mainTitle: "Hispanic Portal",
+        mainSubtitle: "Explore gastronomy, arts, traditions, and prominent figures from each country.",
+        searchPlaceholder: "Search country, food, dance...",
+        btnToggleTable: "View Table",
+        btnToggleCards: "View Cards",
         thCountry: "Country",
-        thDish: "Popular Dish",
+        thDish: "Typical Dish",
         thDance: "Dance",
         thMusic: "Music",
         thSport: "Sport",
-        thPerson: "Famous Person",
-        lblDish: "TRADITIONAL DISH",
-        lblDance: "FOLK DANCE",
-        lblMusic: "MUSIC GENRE",
-        lblSport: "POPULAR SPORT",
-        lblPerson: "FAMOUS PERSON",
-        noResultsTitle: "No results found",
-        noResultsText: "Try another search term.",
-        lblFooterCreated: "Created with love by",
+        thPerson: "Prominent Figure",
+        lblDish: "Gastronomy",
+        lblDance: "Traditional Dance",
+        lblMusic: "Music Genre",
+        lblSport: "Popular Sport",
+        lblPerson: "Prominent Figure",
+        noResultsTitle: "No matches found",
+        noResultsText: "Try searching for a different term.",
+        lblFooterCreated: "Designed and developed by",
         lblFooterHosted: "Optimized for GitHub Pages",
         countries: [
             { id: "country1", country: "", flag: "", dish: "", dishDesc: "", dance: "", music: "", sport: "", person: "", personRole: "" },
@@ -78,29 +72,26 @@ const translations = {
         ]
     },
     fr: {
-        lblCreatedBy: "Votre Nom",
-        lblRemTheme: "Thème Rem (Bleu)",
-        lblRamTheme: "Thème Ram (Rose)",
-        headerTagline: "Édition Spéciale",
-        mainTitle: "Culture Hispanique",
-        mainSubtitle: "Découvrez la culture de la région.",
-        searchPlaceholder: "Rechercher un pays, plat, danse, héro...",
-        btnToggleTable: "Voir en Tableau",
-        btnToggleCards: "Voir en Cartes",
+        headerTagline: "Galerie Culturelle",
+        mainTitle: "Portail Hispanique",
+        mainSubtitle: "Découvrez la gastronomie, les arts, les traditions et les personnalités de chaque pays.",
+        searchPlaceholder: "Rechercher un pays, plat, danse...",
+        btnToggleTable: "Voir Tableau",
+        btnToggleCards: "Voir Cartes",
         thCountry: "Pays",
-        thDish: "Plat Traditionnel",
+        thDish: "Plat Typique",
         thDance: "Danse",
         thMusic: "Musique",
         thSport: "Sport",
-        thPerson: "Personne Célèbre",
-        lblDish: "PLAT TRADITIONNEL",
-        lblDance: "DANSE TRADITIONNELLE",
-        lblMusic: "GENRE MUSICAL",
-        lblSport: "SPORT POPULAIRE",
-        lblPerson: "PERSONNE CÉLÈBRE",
-        noResultsTitle: "Aucun résultat trouvé",
-        noResultsText: "Essayez un autre terme.",
-        lblFooterCreated: "Créé avec amour par",
+        thPerson: "Personnalité",
+        lblDish: "Gastronomie",
+        lblDance: "Danse Traditionnelle",
+        lblMusic: "Genre Musical",
+        lblSport: "Sport Populaire",
+        lblPerson: "Personnalité Marquante",
+        noResultsTitle: "Aucun résultat",
+        noResultsText: "Essayez avec d'autres termes.",
+        lblFooterCreated: "Conçu et développé par",
         lblFooterHosted: "Optimisé pour GitHub Pages",
         countries: [
             { id: "pays1", country: "", flag: "", dish: "", dishDesc: "", dance: "", music: "", sport: "", person: "", personRole: "" },
@@ -134,7 +125,6 @@ const noResults = document.getElementById('noResults');
 function renderUI() {
     const langData = translations[currentLang];
 
-    document.getElementById('lblCreatedBy').textContent = langData.lblCreatedBy;
     document.getElementById('headerTagline').textContent = langData.headerTagline;
     document.getElementById('mainTitle').textContent = langData.mainTitle;
     document.getElementById('mainSubtitle').textContent = langData.mainSubtitle;
@@ -171,28 +161,39 @@ function renderUI() {
         noResults.classList.add('hidden');
     }
 
-    filteredCountries.forEach((c, index) => {
-        const isRem = index % 2 === 0;
-        const themeCardClass = isRem ? 'rem-card' : 'ram-card';
-        const themeBadgeClass = isRem ? 'rem-badge' : 'ram-badge';
-
+    filteredCountries.forEach((c) => {
         // Vista de Tarjetas
         const card = document.createElement('div');
-        card.className = `glass-card ${themeCardClass} rounded-2xl p-6 flex flex-col justify-between transition-all duration-300 relative overflow-hidden`;
+        card.className = `glass-card-pink rounded-2xl p-6 flex flex-col justify-between transition-all duration-300`;
         card.innerHTML = `
             <div>
-                <div class="flex items-center justify-between mb-4 pb-3 border-b border-slate-700/60">
-                    <h3 class="text-xl font-bold text-white flex items-center gap-3">
-                        <span class="text-3xl">${c.flag || '🏳️'}</span>
+                <div class="flex items-center justify-between mb-4 pb-3 border-b border-rose-900/40">
+                    <h3 class="text-xl font-semibold text-rose-100 flex items-center gap-3">
+                        <span class="text-3xl">${c.flag || '🚩'}</span>
                         <span>${c.country || 'Nombre del País'}</span>
                     </h3>
                 </div>
-                <ul class="space-y-3 text-sm">
-                    <li><strong class="text-slate-400 block text-[10px] uppercase">${langData.lblDish}:</strong> ${c.dish} <br><span class="text-xs text-slate-500">${c.dishDesc}</span></li>
-                    <li><strong class="text-slate-400 block text-[10px] uppercase">${langData.lblDance}:</strong> ${c.dance}</li>
-                    <li><strong class="text-slate-400 block text-[10px] uppercase">${langData.lblMusic}:</strong> ${c.music}</li>
-                    <li><strong class="text-slate-400 block text-[10px] uppercase">${langData.lblSport}:</strong> ${c.sport}</li>
-                    <li><strong class="text-slate-400 block text-[10px] uppercase">${langData.lblPerson}:</strong> ${c.person} <span class="text-xs text-slate-500">(${c.personRole})</span></li>
+                <ul class="space-y-3 text-sm text-rose-100/80">
+                    <li class="flex items-start gap-2">
+                        <i class="fa-solid fa-utensils text-rose-400 mt-1"></i>
+                        <div><strong class="text-rose-300 block text-xs uppercase">${langData.lblDish}</strong> ${c.dish} <br><span class="text-xs text-rose-300/50">${c.dishDesc}</span></div>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <i class="fa-solid fa-fan text-rose-400 mt-1"></i>
+                        <div><strong class="text-rose-300 block text-xs uppercase">${langData.lblDance}</strong> ${c.dance}</div>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <i class="fa-solid fa-music text-rose-400 mt-1"></i>
+                        <div><strong class="text-rose-300 block text-xs uppercase">${langData.lblMusic}</strong> ${c.music}</div>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <i class="fa-solid fa-trophy text-rose-400 mt-1"></i>
+                        <div><strong class="text-rose-300 block text-xs uppercase">${langData.lblSport}</strong> ${c.sport}</div>
+                    </li>
+                    <li class="flex items-start gap-2">
+                        <i class="fa-solid fa-star text-rose-400 mt-1"></i>
+                        <div><strong class="text-rose-300 block text-xs uppercase">${langData.lblPerson}</strong> ${c.person} <span class="text-xs text-rose-300/50">(${c.personRole})</span></div>
+                    </li>
                 </ul>
             </div>
         `;
@@ -200,14 +201,14 @@ function renderUI() {
 
         // Vista de Tabla
         const row = document.createElement('tr');
-        row.className = "hover:bg-slate-800/60 border-b border-slate-800";
+        row.className = "hover:bg-rose-900/20 border-b border-rose-900/30 transition-colors";
         row.innerHTML = `
-            <td class="p-4 font-bold text-white whitespace-nowrap"><span class="mr-2">${c.flag || '🏳️'}</span> ${c.country}</td>
-            <td class="p-4">${c.dish}<br><span class="text-xs text-slate-500">${c.dishDesc}</span></td>
+            <td class="p-4 font-semibold text-rose-100 whitespace-nowrap"><span class="mr-2">${c.flag || '🚩'}</span> ${c.country}</td>
+            <td class="p-4">${c.dish}<br><span class="text-xs text-rose-300/50">${c.dishDesc}</span></td>
             <td class="p-4">${c.dance}</td>
             <td class="p-4">${c.music}</td>
             <td class="p-4">${c.sport}</td>
-            <td class="p-4">${c.person}<br><span class="text-xs text-slate-500">${c.personRole}</span></td>
+            <td class="p-4">${c.person}<br><span class="text-xs text-rose-300/50">${c.personRole}</span></td>
         `;
         tableBody.appendChild(row);
     });

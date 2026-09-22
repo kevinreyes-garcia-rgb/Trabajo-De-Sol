@@ -1,7 +1,7 @@
 const translations = {
     es: {
-        headerTagline: "Galería Cultural",
-        mainTitle: "Portal Hispanoamericano",
+        headerTagline: "Clases de English",
+        mainTitle: "Unidos Somos Mas",
         mainSubtitle: "Explora la gastronomía, arte, tradiciones y figuras destacadas de cada país.",
         searchPlaceholder: "Buscar por país, comida, danza...",
         btnToggleTable: "Ver Tabla",
@@ -20,7 +20,7 @@ const translations = {
         noResultsTitle: "Sin coincidencias",
         noResultsText: "Prueba con otros términos de búsqueda.",
         lblFooterCreated: "Diseñado y desarrollado por",
-        lblFooterHosted: "Optimizado para GitHub Pages",
+        lblFooterHosted: "Optimizado",
         countries: [
             { id: "pais1", country: "Argentina", flag: "🇦🇷", dish: "Asado", dishDesc: "Carne asada a la parrilla", dance: "Tango", music: "Tango", sport: "Fútbol", person: "Lionel Messi", personRole: "Futbolista" },
             { id: "pais2", country: "Bolivia", flag: "🇧🇴", dish: "Salteña", dishDesc: "Empanada jugosa rellena de carne o pollo", dance: "Morenada", music: "Andina", sport: "Fútbol", person: "Evo Morales", personRole: "Político" },
@@ -46,8 +46,8 @@ const translations = {
         ]
     },
     en: {
-        headerTagline: "Cultural Gallery",
-        mainTitle: "Hispanic Portal",
+        headerTagline: "English Class",
+        mainTitle: "United we are stronger",
         mainSubtitle: "Explore gastronomy, arts, traditions, and prominent figures from each country.",
         searchPlaceholder: "Search country, food, dance...",
         btnToggleTable: "View Table",
@@ -66,7 +66,7 @@ const translations = {
         noResultsTitle: "No matches found",
         noResultsText: "Try searching for a different term.",
         lblFooterCreated: "Designed and developed by",
-        lblFooterHosted: "Optimized for GitHub Pages",
+        lblFooterHosted: "Optimized",
         countries: [
             { id: "country1", country: "Argentina", flag: "🇦🇷", dish: "Asado", dishDesc: "Traditional grilled barbecue meat", dance: "Tango", music: "Tango", sport: "Soccer", person: "Lionel Messi", personRole: "Soccer Player" },
             { id: "country2", country: "Bolivia", flag: "🇧🇴", dish: "Salteña", dishDesc: "Juicy savory pastry filled with meat or chicken", dance: "Morenada", music: "Andean", sport: "Soccer", person: "Evo Morales", personRole: "Politician" },
@@ -92,8 +92,8 @@ const translations = {
         ]
     },
     fr: {
-        headerTagline: "Galerie Culturelle",
-        mainTitle: "Portail Hispanique",
+        headerTagline: "Clases de ingles",
+        mainTitle: "Unidos Somos Mas",
         mainSubtitle: "Découvrez la gastronomie, les arts, les traditions et les personnalités de chaque pays.",
         searchPlaceholder: "Rechercher un pays, plat, danse...",
         btnToggleTable: "Voir Tableau",
@@ -112,7 +112,7 @@ const translations = {
         noResultsTitle: "Aucun résultat",
         noResultsText: "Essayez avec d'autres termes.",
         lblFooterCreated: "Conçu et développé par",
-        lblFooterHosted: "Optimisé pour GitHub Pages",
+        lblFooterHosted: "Optimisé",
         countries: [
             { id: "pays1", country: "Argentine", flag: "🇦🇷", dish: "Asado", dishDesc: "Viande grillée au barbecue", dance: "Tango", music: "Tango", sport: "Football", person: "Lionel Messi", personRole: "Footballeur" },
             { id: "pays2", country: "Bolivie", flag: "🇧🇴", dish: "Salteña", dishDesc: "Chaussons juteux farcis à la viande ou au poulet", dance: "Morenada", music: "Andine", sport: "Football", person: "Evo Morales", personRole: "Homme politique" },
